@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+C:\Users\01raf\OneDrive\Documentos\Estudo&Faculdade\FIAP\Curso em video\Java\workspace-java\.metadata\.plugins\org.eclipse.jdt.core
+2965420843.index
+3567087668.index
+537845404.index
+1608441540.index
+2383470791.index
+1865797976.index
+3020067670.index
+1794832342.index
+4055105939.index
+1872563506.index

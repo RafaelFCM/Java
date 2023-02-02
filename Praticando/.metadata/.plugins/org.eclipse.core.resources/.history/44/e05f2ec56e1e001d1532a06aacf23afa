@@ -1,0 +1,17 @@
+package forit;
+
+import java.util.Scanner;
+
+public class ForIt {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		
+		int num[5] = {3,7,2,1,8};
+		
+		for (int valor: num) {
+			System.out.println(valor);
+		}
+	}
+
+}

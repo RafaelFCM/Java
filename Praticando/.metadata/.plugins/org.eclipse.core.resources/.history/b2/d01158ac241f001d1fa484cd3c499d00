@@ -1,0 +1,38 @@
+package abc;
+import java.util.Scanner;
+
+	public class abc {
+	
+		public static void main(String[] args) {
+			Scanner entrada = new Scanner (System.in);
+
+			String [] arrayMonths = new String [12];
+			int [] mes = new int [12];
+			String nomeBusca = new String ();
+			int j=0;
+			
+			for (int c=1; c<13; c++) {
+				arrayMonths[c] = "Janeiro";
+				System.out.print("Informe a temperatura de "+arrayMonths[c]+": ");
+				mes[c]=entrada.nextInt();
+				System.out.println();
+			}
+			
+			System.out.println("Digite o nome a procurar: ");
+			nomeBusca=entrada.next();
+			
+			for (int i=0; i<10; i++) {
+				if (arrayMonths[i].equalsIgnoreCase(nomeBusca)) {
+					j=+1;
+			}
+			}
+			if (j>0) {
+				System.out.print("Achei");
+			}else{
+				System.out.print("Não achei");
+			}
+
+		}
+
+	}
+	
